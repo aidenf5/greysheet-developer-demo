@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { Button } from "./ui/button"
 import { ArrowRight, Shield, Zap, Database } from "lucide-react"
 
@@ -8,21 +9,23 @@ export function HeroSection() {
       <div className="container relative mx-auto px-4 py-20 sm:px-6 lg:px-8 lg:py-32">
         <div className="mx-auto max-w-3xl text-center">
           <h1 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-            Real-Time Rare Coin
-            <span className="block text-[#d4af37]">Pricing & Valuation API</span>
+            Pay-As-You-Go Coin Data APIs
+            <span className="block text-[#d4af37]">No Subscriptions. Just Results.</span>
           </h1>
           <p className="mb-10 text-lg text-gray-200 sm:text-xl">
-            Access comprehensive coin pricing data, population reports, and market analytics
-            through our developer-friendly REST API. Trusted by dealers, collectors, and platforms worldwide.
+            Access real-time pricing, population reports, and market analytics with transparent per-request pricing.
+            Start free with generous limits on every API. Scale seamlessly with automatic volume discounts.
           </p>
           <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
             <Button size="lg" className="bg-[#d4af37] text-[#1e3a5f] hover:bg-[#b8941f]">
               Start Free Trial
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
-            <Button size="lg" variant="outline" className="border-white bg-transparent text-white hover:bg-white/10">
-              View Documentation
-            </Button>
+            <Link href="/pricing">
+              <Button size="lg" variant="outline" className="border-white bg-white/10 text-white hover:bg-white hover:text-[#1e3a5f]">
+                View Pricing
+              </Button>
+            </Link>
           </div>
         </div>
 

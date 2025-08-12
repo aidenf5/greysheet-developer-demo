@@ -2,9 +2,8 @@
 
 import { useState } from "react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs"
 import { Badge } from "./ui/badge"
-import { Code2, Coins, TrendingUp, History, Globe, Calculator, Info } from "lucide-react"
+import { Coins, TrendingUp, Globe, Calculator, Info } from "lucide-react"
 
 const apiModels = {
   catalog: {

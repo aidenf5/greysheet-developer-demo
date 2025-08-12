@@ -189,7 +189,7 @@ export function DeveloperResources() {
                   <Button size="lg" className="bg-[#d4af37] text-[#1e3a5f] hover:bg-[#b8941f]">
                     Open Playground
                   </Button>
-                  <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+                  <Button size="lg" variant="outline" className="border-white bg-white/10 text-white hover:bg-white hover:text-[#1e3a5f]">
                     View Examples
                   </Button>
                 </div>

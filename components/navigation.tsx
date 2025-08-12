@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { Button } from "./ui/button"
-import { Code2, Coins, Menu, X } from "lucide-react"
+import { Coins, Menu, X } from "lucide-react"
 import { useState } from "react"
 
 export function Navigation() {
@@ -20,19 +20,19 @@ export function Navigation() {
           </div>
 
           <div className="hidden md:flex md:items-center md:space-x-6">
-            <Link href="#pricing" className="text-sm font-medium text-gray-700 hover:text-[#1e3a5f]">
+            <Link href="/pricing" className="text-sm font-medium text-gray-700 hover:text-[#1e3a5f]">
               Pricing
             </Link>
-            <Link href="#models" className="text-sm font-medium text-gray-700 hover:text-[#1e3a5f]">
+            <Link href="/#models" className="text-sm font-medium text-gray-700 hover:text-[#1e3a5f]">
               API Models
             </Link>
-            <Link href="#docs" className="text-sm font-medium text-gray-700 hover:text-[#1e3a5f]">
+            <Link href="/#docs" className="text-sm font-medium text-gray-700 hover:text-[#1e3a5f]">
               Documentation
             </Link>
-            <Link href="#resources" className="text-sm font-medium text-gray-700 hover:text-[#1e3a5f]">
+            <Link href="/#resources" className="text-sm font-medium text-gray-700 hover:text-[#1e3a5f]">
               Resources
             </Link>
-            <Link href="#enterprise" className="text-sm font-medium text-gray-700 hover:text-[#1e3a5f]">
+            <Link href="/#enterprise" className="text-sm font-medium text-gray-700 hover:text-[#1e3a5f]">
               Enterprise
             </Link>
             <Button variant="outline" size="sm" className="ml-2">
@@ -56,19 +56,19 @@ export function Navigation() {
         {isMenuOpen && (
           <div className="md:hidden">
             <div className="space-y-2 pb-4 pt-2">
-              <Link href="#pricing" className="block px-3 py-2 text-sm font-medium text-gray-700 hover:text-[#1e3a5f]">
+              <Link href="/pricing" className="block px-3 py-2 text-sm font-medium text-gray-700 hover:text-[#1e3a5f]">
                 Pricing
               </Link>
-              <Link href="#models" className="block px-3 py-2 text-sm font-medium text-gray-700 hover:text-[#1e3a5f]">
+              <Link href="/#models" className="block px-3 py-2 text-sm font-medium text-gray-700 hover:text-[#1e3a5f]">
                 API Models
               </Link>
-              <Link href="#docs" className="block px-3 py-2 text-sm font-medium text-gray-700 hover:text-[#1e3a5f]">
+              <Link href="/#docs" className="block px-3 py-2 text-sm font-medium text-gray-700 hover:text-[#1e3a5f]">
                 Documentation
               </Link>
-              <Link href="#resources" className="block px-3 py-2 text-sm font-medium text-gray-700 hover:text-[#1e3a5f]">
+              <Link href="/#resources" className="block px-3 py-2 text-sm font-medium text-gray-700 hover:text-[#1e3a5f]">
                 Resources
               </Link>
-              <Link href="#enterprise" className="block px-3 py-2 text-sm font-medium text-gray-700 hover:text-[#1e3a5f]">
+              <Link href="/#enterprise" className="block px-3 py-2 text-sm font-medium text-gray-700 hover:text-[#1e3a5f]">
                 Enterprise
               </Link>
               <div className="flex space-x-2 px-3 pt-2">

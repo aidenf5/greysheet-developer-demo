@@ -1,6 +1,6 @@
 import { Navigation } from "@/components/navigation"
 import { HeroSection } from "@/components/hero-section"
-import { PricingSection } from "@/components/pricing-section"
+import { PricingSummary } from "@/components/pricing-summary"
 import { ApiModelsSection } from "@/components/api-models-section"
 import { DeveloperResources } from "@/components/developer-resources"
 import { Footer } from "@/components/footer"
@@ -11,7 +11,7 @@ export default function Home() {
       <Navigation />
       <HeroSection />
       <ApiModelsSection />
-      <PricingSection />
+      <PricingSummary />
       <DeveloperResources />
       <Footer />
     </div>
